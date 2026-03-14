@@ -1,0 +1,62 @@
+.trashicon{
+    color: rgb(16, 16, 48);
+
+}
+/* Add these styles to your Wishlist.css file */
+
+.empty-wishlist-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .empty-wishlist-icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 32px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin: 0 auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+  }
+  
+  .empty-wishlist-title {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    padding: 0;
+  }
+  
+  .empty-wishlist-text {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .empty-wishlist-button {
+    background-color: #0f2e52;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .empty-wishlist-button:hover {
+    background-color: #3a7bbf;
+  }
+  
+  /* Keep your existing styles below */

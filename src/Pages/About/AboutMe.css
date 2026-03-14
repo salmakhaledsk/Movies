@@ -1,0 +1,52 @@
+.about-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-title {
+  color: teal;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.movies-section h2 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.movies-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-item {
+  background-color: #f1f9f9;
+  border-left: 5px solid teal;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.movie-item h4 {
+  margin: 0 0 5px;
+  color: #222;
+}
+
+.movie-item span {
+  font-weight: normal;
+  font-size: 0.95rem;
+  color: #666;
+}

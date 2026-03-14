@@ -1,0 +1,27 @@
+.iconNavfav {
+  color: rgb(198, 48, 48);
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  color: teal;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(0, 128, 128);
+  text-decoration: underline;
+}
+
+.brand-name {
+  color: teal;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.wishlist-count {
+  font-size: 0.7rem;
+  padding: 3px 6px;
+  border-radius: 50%;
+}

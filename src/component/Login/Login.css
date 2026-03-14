@@ -1,0 +1,12 @@
+
+.card {
+  border-radius: 10px;
+}
+.form-label {
+  font-weight: 500;
+}
+.btn-primary{
+  background-color: #000000;
+  border-color: #007bff;
+  margin-top: 110px;
+}
