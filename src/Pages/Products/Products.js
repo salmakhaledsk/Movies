@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { Card, Col, Container, Row, Spinner } from "react-bootstrap";
 import "./Products.css";
@@ -24,18 +23,13 @@ function Products() {
     dispatch(productsAction()); // Dispatch the productsAction
   }, []);
 
-
-
-
-  const apiKey ="c94b800b13b9b455a5d91c9b54e821a3";
+  const apiKey = "c94b800b13b9b455a5d91c9b54e821a3";
   const navigate = useNavigate();
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     instance
-      .get(
-        `/movie/popular?api_key=${apiKey}`
-      )
+      .get(`/movie/popular?api_key=${apiKey}`)
       .then((res) => {
         setProducts(res.data.results);
         console.log(res.data.results);
@@ -52,10 +46,10 @@ function Products() {
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       ) : (
-        <Container>
-          <Row className="mt-5">
+        <Container className="products-container">
+          <Row className="g-4 justify-content-center">
             {products.map((prod) => (
-              <Col className="col-md-3" key={prod.id}>
+              <Col xs={12} sm={6} md={4} lg={2} key={prod.id}>
                 <Card style={{ width: "12rem" }}>
                   <Card.Img
                     variant="top"
