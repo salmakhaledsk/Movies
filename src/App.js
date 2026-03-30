@@ -23,7 +23,7 @@ const router = createHashRouter([
     path: "/",
     element: <MainComponent />,
     children: [
-      { index: true, element: <Navigate to="home" replace /> }, // 👈 Add this
+      { index: true, element: <Navigate to="home" replace /> },
       { path: "login", element: <Login /> },
       { path: "register", element: <Register /> },
       { path: "home", element: <Home /> },
